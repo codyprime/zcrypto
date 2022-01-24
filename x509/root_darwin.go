@@ -7,13 +7,6 @@
 
 package x509
 
-import (
-	"bytes"
-	"fmt"
-	"os"
-	"strings"
-)
-
 func (c *Certificate) systemVerify(opts *VerifyOptions) (chains [][]*Certificate, err error) {
 	return nil, nil
 }
